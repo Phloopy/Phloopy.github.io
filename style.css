@@ -10,8 +10,64 @@
 
 #textheader p{
     font-weight: bold;
+    font-size: 16px;
     color: white;
-    text-shadow: 0px 0px 5px black, 0px 0px 5px black,  0px 0px 5px black;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#headerline hr{
+    border-top: 3px solid black;
+    opacity: 0.5;
+}
+
+#headerbuttonparent{
+    display: flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerbutton1 button{
+    background-color: rgb(89, 187, 254);
+    border: none;
+    color: #222;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    box-shadow: 1px 1px 10px 0 black;
+}
+#headerbutton2 button{
+    background-color: rgb(89, 187, 254);
+    border: none;
+    color: #222;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    box-shadow: 1px 1px 10px 0 black;
+}
+
+#headerbutton1:hover button{
+    background-color: rgb(239, 119, 239);
+    color: white;  
+}
+#headerbutton2:hover button{
+    background-color: rgb(239, 119, 239);
+    color: white;
+}
+
+#divider{
+    width: 10px;
+    height: auto;
+    display: inline-block;
 }
