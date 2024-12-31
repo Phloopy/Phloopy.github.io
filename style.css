@@ -88,6 +88,42 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#gamewindowsection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gamewindow{
+    width: 320px;
+    height: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(34, 34, 34, 0.8);
+    border-radius: 15px;
+    display: block;
+    position: relative;
+    box-shadow: 2px 2px 20px black;
+}
+
+#gwtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#gwimage{
+    width: 256px;
+    margin: auto;
+    position: absolute;
+    left: 32px;
+    bottom: 8px;
+    border-radius: 15px;
+}
+
 #divider{
     width: 10px;
     height: auto;
