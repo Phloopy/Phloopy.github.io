@@ -60,10 +60,12 @@
 #headerbutton1:hover button{
     background-color: rgb(239, 119, 239);
     color: white;  
+    cursor: pointer;
 }
 #headerbutton2:hover button{
     background-color: rgb(239, 119, 239);
     color: white;
+    cursor: pointer;
 }
 
 #divider{
