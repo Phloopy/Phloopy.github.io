@@ -169,3 +169,12 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media (max-width: 768px) {
+    #headerbutton1 button{
+        font-size: 32px;
+    }
+    #headerbutton2 button{
+        font-size: 32px;
+    }
+}
