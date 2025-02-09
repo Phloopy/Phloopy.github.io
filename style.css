@@ -186,6 +186,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+#bwvideo{
+    display: block;
+    margin: auto;
+}
 
 #divider{
     width: 10px;
