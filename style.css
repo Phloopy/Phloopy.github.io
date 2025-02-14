@@ -185,6 +185,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 #bwvideo{
     display: block;
@@ -229,6 +230,12 @@ body{
         font-size: 18px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+    #bwimage{
+        width: 100%;
+    }
+    #bwvideo{
+        width: 100%;
     }
     #textheader p{
         font-size: 24px;
